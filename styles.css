@@ -1,0 +1,192 @@
+.header {
+    color: #458fff;
+    font-size:5.5em;
+    filter: grayscale(0) blur(0px);
+    font-weight: 400;
+    text-shadow: 5px 3px 6px black;
+}
+
+body {
+    background-color: #2e2d2d;
+}
+
+.lead {
+    color:#6dff45;
+    font-size:1.7em;
+    font-weight: 400;
+    text-shadow: 5px 3px 6px black;
+}
+.container{width:100%;}
+
+.jumbotron {
+background-image: url("code.jpg");
+filter: grayscale(50%) blur(.5px);
+background-size: cover;
+     height:70vh;
+    z-index: 1;
+}
+
+.contact{
+    color:black;
+    background-color: #458fff;
+    text-shadow: .5px .5px .5px black;
+    border-radius: 25px;
+    border: solid 3px black;
+}
+
+.fade{
+    z-index: ;}
+/*1st*/
+
+.contains{width: 80%;
+ }
+
+.headings{white-space: normal;}
+
+.title{
+    font-size:2.6em;
+    text-shadow: 2px 2px 3px grey;
+}
+
+.headings{
+    font-size:1.2em;
+}
+.bModal{
+    background-color:rgba(69, 143, 255, .25);
+    border: 2.5px solid grey;
+    border-radius: 25px;
+    height:250px;
+    margin-bottom: 20px;
+
+}
+
+.modal-backdrop {
+  z-index: -1;
+}
+
+.rBorder{
+    margin-right: 25px;
+}
+
+.lBorder{margin-bottom: 75px;}
+/*2nd row */
+
+.mecol{
+    width: 100%;
+
+}
+
+.socialIcon:hover{color:#458fff;}
+.me{
+    width: 100%;
+    height: auto;
+    border: 1.5px solid grey;
+    margin:auto;
+    border-radius: 50%;
+}
+
+.foot{
+    color:white
+}
+
+.cwm{
+    font-size: 35px;
+}
+
+.vertAlign{
+  position: relative;
+    top:50%;
+  transform: translateY(-50%);
+    text-align: center;
+}
+
+button, .fab{color:white;
+}
+button:hover {
+    color: rgba(69, 143, 255, .8);
+}
+
+.fab{
+    font-size: 50px;
+    padding-right:20px;
+}
+
+/*Modal CSS*/
+
+
+.centerModal{
+left: 50%;
+  transform: translatex(-50%);
+   position: absolute;
+}
+
+.close, .close:hover{
+    color:white;
+    opacity: inherit;
+}
+
+.fontAwe li{display:inline;
+text-align: center;
+padding:0;}
+
+.fontCode{padding:8px;}
+
+.modal-content{
+    background-color: #162b4a;}
+.modal-body, .centerModal{
+    color:white;
+}
+.languages, .languages ul{text-align: center;
+ list-style-type: none;
+    padding:0
+}
+.modalButton{
+   background-color: white;
+   color:black;
+   border: solid 2px black;
+}
+
+
+
+/*Form*/
+
+.icon{color:grey;}
+.submit{background-color: #458fff;}
+.submit:hover{background-color: #458fff;}
+.submit:active{background-color: #458fff;}
+
+
+/*Queries*/
+
+@media screen and (min-width:771px){
+    .contains{
+    display:flex;
+    justify-content:center;
+}
+}
+
+@media screen and (max-width: 770px) {
+
+    .lBorder{margin-bottom: 75px;}
+
+    .card-body{
+    height:250px;
+}
+
+    .buttons{
+      position: absolute;
+    bottom:0;
+}
+
+    .meSocial
+    {display:flex;
+        flex-direction: column-reverse;
+    }
+
+
+}
+
+@media screen and (max-width: 600px) {
+
+
+    }

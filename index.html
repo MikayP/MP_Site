@@ -1,0 +1,222 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Mike Portman - Web Developer</title>
+    <script src="main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+
+</head>
+<body>
+<div class="jumbotron text-center">
+  <h1 class="display-4 header ">Mike Portman</h1>
+  <p class="lead">Front-End Web Developer</p>
+ <!-- Button trigger modal -->
+<!--<div class="rBorder lines">-->
+<button type="button" class="btn btn-primary col-md-4 mt-5 contact" data-toggle="modal" data-target="#contactModal">
+  <p class="title">Contact Mike</p>
+</button>
+<!--    </div>-->
+<!-- Modal -->
+<div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title centerModal" id="contactModal">Email Mike</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+         <!--Form with header-->
+
+                    <form action="https://formspree.io/mikeportmanj@gmail.com" method="post">
+                        <div class="card border-primary rounded-0">
+                            <div class="card-body p-3">
+
+                                <!--Body-->
+                                <div class="form-group">
+                                    <div class="input-group mb-2">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text"><i class="fas fa-user icon"></i></div>
+                                        </div>
+                                        <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Name" required>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="input-group mb-2">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text"><i class="fas fa-envelope icon"></i></div>
+                                        </div>
+                                        <input type="email" class="form-control" id="nombre" name="email" placeholder="email@gmail.com" required>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="input-group mb-2">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text"><i class="fas fa-comment icon"></i></div>
+                                        </div>
+                                        <textarea class="form-control" placeholder="Message here" required></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="text-center">
+                                    <input type="submit" value="Submit" class="btn btn-info btn-block rounded-0 py-2 submit">
+                                </div>
+                            </div>
+
+                        </div>
+                    </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary modalButton" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+<!--MODALS-->
+
+<div class="container-fluid contains">
+<!-- Button trigger modal -->
+<!--<div class="rBorder lines">-->
+<button type="button" class="btn btn-primary col-lg-4 bModal rBorder " data-toggle="modal" data-target="#firstModal">
+  <p class="title">About</p>
+ <p class="headings"> How Mike came into the world of Front End Web Developement</p>
+</button>
+<!--    </div>-->
+<!-- Modal -->
+<div class="modal fade" id="firstModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title centerModal" id="exampleModalLabel">Hi, I'm Mike!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>I started in the world of Web Development early 2018 looking for a career switch. Most of resume is centered around experience in the corporate retail management sector.</p>
+        <p>Being surrounded by such a tech hub like Silicon Valley friends my inspired me to teach myself how to code and move into the industry of Web Development.</p>
+        <p>Due to this push to make it a career I am a self taught learner of code and have learned how to problem solve and find the answers for myself. Although this sometimes have taken me longer to find solutions for answers it has helped me become a stronger learner in this ever evolving field of Front End Web Development.</p>
+        <p>Thank you for checking out my site and if you have any questions feel free to contact me via email.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary modalButton" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Button trigger modal -->
+<!--<div class="rBorder lines">-->
+<button type="button" class="btn btn-primary col-lg-4 bModal rBorder" data-toggle="modal" data-target="#secondModal">
+  <p class="title"> Portfolio</p>
+  <p class="headings">HTML, CSS, Bootstrap, JavaScript, jQuery, Responsive Design</p>
+</button>
+<!--    </div>-->
+<!-- Modal -->
+<div class="modal fade" id="secondModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title centerModal" id="exampleModalLabel">My Work</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <center class="pb-3">Please check back soon for my recent projects I have made for clients.</center>
+       <div class="languages">
+       <p>Languages I do my work:</p>
+       <div class="inlineFont">
+        <ul class="fontAwe">
+             <li><i class="fab fa-html5 fontCode"></i>
+             <li><i class="fab fa-js-square fontCode"></i>
+             <li><i class="fab fa-css3-alt fontCode"></i>
+
+       </ul>
+       </div>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Boostrap</li>
+            <li>JavaScript</li>
+            <li>jQuery</li>
+            <li>Responsive Design</li>
+       </ul>
+      </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary modalButton" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Button trigger modal -->
+<!--<div class="rBorder lines">-->
+<button type="button" class="btn btn-primary col-lg-4 bModal lBorder" data-toggle="modal" data-target="#thirdModal">
+  <p class="title">Blog</p>
+  <p class="headings">Writing about my experiences in life, as a coder, and random tidbits.</p>
+</button>
+<!-- Modal -->
+<div class="modal fade" id="thirdModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title centerModal" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary modalButton" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<!--Footer-->
+
+<div class="container pt-5">
+  <div class="row meSocial">
+    <div class="col-md mecol">
+      <img class="me" src="me.jpg">
+    </div>
+    <div class="col-md foot order-1">
+     <div class="vertAlign">
+      <p class="cwm">Connect with Mike on social media!</p>
+      <div class="socialM">
+       <a href="https://www.instagram.com/mike.portman/" target="_blank"><i class="fab socialIcon fa-instagram"></i></a>
+      <a href="https://www.linkedin.com/in/mike-portman/" target="_blank"><i class="fab socialIcon fa-linkedin"></i></a>
+      <a href="https://www.facebook.com/mike.portman.1" target="_blank"><i class="fab socialIcon fa-facebook"></i></a>
+      <a href="https://twitter.com/MikePortman" target="_blank"><i class="fab socialIcon fa-twitter-square"></i></a>
+      <a href="https://www.strava.com/athletes/1180546" target="_blank"><i class="fab socialIcon fa-strava"></i></a>
+      </div>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>
